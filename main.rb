@@ -20,7 +20,6 @@ else
   puts "Log not saved"
 end
 
-# Print out the process information for each running process
 procs.each do |p|
   puts "Process ID: #{p.pid}"
   puts "Command line: #{p.cmdline}"
