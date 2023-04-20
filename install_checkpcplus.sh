@@ -9,7 +9,7 @@ if [ ! -d "$BIN_DIR" ]; then
   fi
 fi
 
-if ! sudo cp main.rb checkpcplus "$BIN_DIR"; then
+if ! sudo cp checkpcplus "$BIN_DIR"; then
   echo "Error: Failed to copy files to $BIN_DIR"
   exit 1
 fi
