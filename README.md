@@ -5,18 +5,18 @@ CheckPC+ is an open-source PC scanner that allows you to monitor the processes r
 ## Installation
 
 Clone the repository:
-```
+```bash
 git clone https://github.com/INeddHelp/CheckPcPLUS.git
 cd path/to/CheckPcPLUS
 ```
 
 Make the file 'install_checkpcplus.sh' executable by running this command:
-```
+```bash
 chmod +x install_checkpcplus.sh
 ```
 
 Once it's done, you can run the command in the terminal:
-```
+```bash
 checkpcplus
 ```
 
