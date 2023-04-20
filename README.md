@@ -17,6 +17,7 @@ cd path/to/CheckPcPLUS
 Make the file 'install_checkpcplus.sh' executable by running this command:
 ```bash
 chmod +x install_checkpcplus.sh
+./install_checkpcplus.sh
 ```
 
 Once it's done, you can run the command in the terminal:
