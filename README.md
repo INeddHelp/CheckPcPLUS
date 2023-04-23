@@ -1,7 +1,11 @@
 # CheckPcPLUS
 
+(It only works on linux for now)
+
 CheckPC+ is an open-source PC scanner that allows you to monitor the processes running on your system and their memory usage. It's designed to be easy to use and customizable for different use cases.
 
+This is only a part of what it should print out
+![screenshot](https://i.postimg.cc/zXBBTWBD/Screenshot-from-2023-04-20-16-16-59.png)
 ## Installation
 
 Clone the repository:
@@ -13,6 +17,7 @@ cd path/to/CheckPcPLUS
 Make the file 'install_checkpcplus.sh' executable by running this command:
 ```bash
 chmod +x install_checkpcplus.sh
+./install_checkpcplus.sh
 ```
 
 Once it's done, you can run the command in the terminal:
