@@ -31,6 +31,10 @@ When you run the checkpcplus command, the script will list all currently running
 
 If you choose to save the log file, it will create a file named processes.log on your desktop and write the process information to it. If you choose not to save the log file, the script will exit.
 
+Update: v0.3
+
+The script will now generate a report of the specific port(s) being used by each process, providing more accurate information.
+
 # License
 
 CheckPC+ is released under the MIT License.
