@@ -1,4 +1,5 @@
 require 'sys/proctable'
+
 procs = Sys::ProcTable.ps()
 
 print "Do you want to save the log file? (Y/N): "
@@ -11,18 +12,15 @@ if save_log
       f.write("Process ID: #{p.pid}\n")
       f.write("Command line: #{p.cmdline}\n")
       f.write("Memory usage: #{p.rss} KB\n")
+      ports = `lsof -i -P -n -p #{p.pid} | grep LISTEN | awk '{print $9}'`
+      f.write("Port(s) used: #{ports}\n")
+
       f.write("---------------------\n")
+      puts "Done"
     end
   end
 
   puts "Log file saved to #{log_file_path}"
 else
   puts "Log not saved"
-end
-
-procs.each do |p|
-  puts "Process ID: #{p.pid}"
-  puts "Command line: #{p.cmdline}"
-  puts "Memory usage: #{p.rss} KB"
-  puts "---------------------"
 end
