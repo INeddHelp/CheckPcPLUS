@@ -31,7 +31,7 @@ When you run the checkpcplus command, the script will list all currently running
 
 If you choose to save the log file, it will create a file named processes.log on your desktop and write the process information to it. If you choose not to save the log file, the script will exit.
 
-#### Updates:
+#### Updates v0.3.1:
 
 Added extra layer of security
 ClamAV malware search
