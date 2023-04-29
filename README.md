@@ -33,9 +33,9 @@ If you choose to save the log file, it will create a file named processes.log on
 
 #### Updates v0.3.1:
 
-Added extra layer of security
-ClamAV malware search
-Quarantine dangerous files
+- Added extra layer of security
+- ClamAV malware search
+- Quarantine dangerous files
 
 #### Update: v0.3
 
